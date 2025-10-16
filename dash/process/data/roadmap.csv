@@ -1,0 +1,16 @@
+title,content
+"1. Introduction to Python and Installation","1. Introduction to Python and Installation"
+"2. Variables and Data Types","2. Variables and Data Types"
+"3. Operators and Expressions","3. Operators and Expressions"
+"4. Control Flow (if","4. Control Flow (if"
+else,else
+loops),loops)
+"5. Functions and Modules","5. Functions and Modules"
+"6. Data Structures (Lists","6. Data Structures (Lists"
+Tuples,Tuples
+Sets,Sets
+Dictionaries),Dictionaries)
+"7. File Handling","7. File Handling"
+"8. Error Handling and Exceptions","8. Error Handling and Exceptions"
+"9. Object-Oriented Programming","9. Object-Oriented Programming"
+"10. Libraries and Virtual Environments","10. Libraries and Virtual Environments"

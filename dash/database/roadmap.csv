@@ -1,0 +1,11 @@
+title,content
+"1. Introduction to Python and Installation","Learn the basics of Python programming language and how to set up your development environment"
+"2. Variables and Data Types","Understand different data types in Python including strings, numbers, and booleans"
+"3. Operators and Expressions","Master arithmetic, comparison, and logical operators in Python"
+"4. Control Flow (if/else, loops)","Learn conditional statements and different types of loops for program control"
+"5. Functions and Modules","Create reusable code with functions and organize code with modules"
+"6. Data Structures (Lists, Tuples, Sets, Dictionaries)","Explore Python's built-in data structures for storing and organizing data"
+"7. File Handling","Learn to read from and write to files in Python"
+"8. Error Handling and Exceptions","Handle errors gracefully with try-except blocks and custom exceptions"
+"9. Object-Oriented Programming","Understand classes, objects, inheritance, and polymorphism in Python"
+"10. Libraries and Virtual Environments","Work with external libraries and manage project dependencies"

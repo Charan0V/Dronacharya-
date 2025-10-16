@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Interaction Interface</title>
+</head>
+<body>
+    <h2>Send Message to Flask Backend</h2>
+    
+    <input type="text" id="userInput" placeholder="Enter message here" />
+    <button onclick="sendMessage()">Send</button>
+    
+    <h3>Response:</h3>
+    <p id="responseText">Waiting for reply...</p>
+
+    <script>
+        async function sendMessage() {
+            const input = document.getElementById('userInput').value;
+            const responseText = document.getElementById('responseText');
+
+            responseText.textContent = "Sending...";
+
+            try {
+                const response = await fetch('http://localhost:5000/greet', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ name: input })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    responseText.textContent = "Reply: " + data.reply;
+                } else {
+                    responseText.textContent = "Error: " + data.error;
+                }
+            } catch (error) {
+                responseText.textContent = "Error sending message.";
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>
